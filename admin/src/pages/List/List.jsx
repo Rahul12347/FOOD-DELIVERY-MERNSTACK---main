@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import "./List.css";
 import axios from 'axios';
+import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
+import "./List.css";
 
+// eslint-disable-next-line react/prop-types
 export const List = ({url}) => {
   const [list,SetList]=useState([ ]);
   

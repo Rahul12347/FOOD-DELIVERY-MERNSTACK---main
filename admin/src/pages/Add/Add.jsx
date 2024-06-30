@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
-import "./Add.css";
-import { assets } from "../../assets/assets";
 import axios from "axios";
+import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import { assets } from "../../assets/assets";
+import "./Add.css";
+// eslint-disable-next-line react/prop-types
 export const Add = ({url}) => {
   
 

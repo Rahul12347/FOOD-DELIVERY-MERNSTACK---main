@@ -1,7 +1,7 @@
-import React from 'react'
-import "./Sidebar.css"
-import { assets} from '../../assets/assets'
-import { NavLink } from 'react-router-dom'
+
+import { NavLink } from 'react-router-dom';
+import { assets } from '../../assets/assets';
+import "./Sidebar.css";
 export const Sidebar = () => {
 return (
   <div>
@@ -17,7 +17,7 @@ return (
         </NavLink>
         <NavLink to='/orders' className="sidebar-option">
           <img src={assets.order_icon} alt="" />
-          <p>oders item</p>
+          <p>orders item</p>
         </NavLink>
       </div>
     </div>
